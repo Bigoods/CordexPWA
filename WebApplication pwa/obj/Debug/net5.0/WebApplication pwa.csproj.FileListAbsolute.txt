@@ -1,0 +1,92 @@
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\appsettings.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\libman.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\manifest.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.exe
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.deps.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.runtimeconfig.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.runtimeconfig.dev.json
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.pdb
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.Views.dll
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.Views.pdb
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.AssemblyInfoInputs.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.AssemblyInfo.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.csproj.CoreCompileInputs.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorAssemblyInfo.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorAssemblyInfo.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\staticwebassets\WebApplication pwa.StaticWebAssets.Manifest.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\scopedcss\bundle\WebApplication pwa.styles.css
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.TagHelpers.input.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.TagHelpers.output.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorCoreGenerate.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Clientes.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Encomendas.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Leads.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Loading.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorTargetAssemblyInfo.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorTargetAssemblyInfo.cs
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.Views.pdb
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\ref\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.pdb
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.genruntimeconfig.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.csproj.CopyComplete
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.csproj.AssemblyReference.cache
+C:\Users\epacheco\Desktop\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\refint\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\appsettings.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\libman.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\manifest.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.exe
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.deps.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.runtimeconfig.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.runtimeconfig.dev.json
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.pdb
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.Views.dll
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\bin\Debug\net5.0\WebApplication pwa.Views.pdb
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.csproj.AssemblyReference.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.AssemblyInfoInputs.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.AssemblyInfo.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.csproj.CoreCompileInputs.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorAssemblyInfo.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorAssemblyInfo.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\scopedcss\bundle\WebApplication pwa.styles.css
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\staticwebassets\WebApplication pwa.StaticWebAssets.Manifest.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.TagHelpers.input.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.TagHelpers.output.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorCoreGenerate.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Clientes.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Encomendas.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Leads.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Loading.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorTargetAssemblyInfo.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.RazorTargetAssemblyInfo.cs
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.Views.pdb
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\refint\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.pdb
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.genruntimeconfig.cache
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\ref\WebApplication pwa.dll
+C:\Users\epacheco\Desktop\Work\PWA\WebApplication pwa\WebApplication pwa\obj\Debug\net5.0\WebApplication pwa.csproj.CopyComplete

@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row">
+    <div class="">
+        <img style="position: absolute;object-fit:cover; width: 104%; border-bottom-left-radius: 63% 42%; border-bottom-right-radius: 34% 40%; height: 45%; border: #bbbbba 7px double; left: -7px; right: -7px; top: -7px; " src="https://cordex.com/wp-content/themes/cordex/dist/images/cordex-agri.jpg" />
+    </div>
+    <div class="" style=" position: absolute; top: 45%; width: 100%;">
+        <img style="width: 50%; margin-top:5%; transform: translate(50%);" src="/cordex-removebg-preview.png"  />
+        <div class="col-md-4">
+            <form asp-action="Login" class="login-form" >
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                @*<span asp-validation-for="Username" class="text-danger"></span>*@
+                <div class="form-group">
+                    <input @*asp-for="Username"*@ class="form-control box-shadow" style="border:0px" placeholder="Username" />
+                </div>
+                @*<span asp-validation-for="Password" class="text-danger"></span>*@
+                <div class="form-group" >
+                    <input @*asp-for="Password"*@ class="form-control box-shadow" type="password" style="border:0px" placeholder="Password" />
+
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login" class="button" asp-action="index" />
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <style>
+        header, footer {
+            display: none;
+        }
+
+       
+        .button {
+            width: 85%;
+            position: absolute;
+            left: 8%;
+            margin-top: 20px;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #8cc43d;
+            border: none;
+            border-radius: 20px;
+        }
+
+
+            .button:active {
+                background-color: #8cc43d;
+                box-shadow: 0 5px #666;
+                color: black;
+                transform: translateY(4px);
+            }
+            .form-group{
+                margin-top:10%;
+            }
+    </style>

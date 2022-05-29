@@ -1,0 +1,579 @@
+﻿@{
+    ViewData["Title"] = "Leads";
+}
+<div>
+    <p style="background-color: #82c921; border-bottom-left-radius: 40px 30px; border-bottom-right-radius: 40px 30px; height: 50px; margin-top: -10%; margin-bottom: 5%; width: 108%; margin-left: -4%;"></p>
+
+    <div style="display:flex; flex-direction:row; margin-bottom:3%">
+        <div class="filterfields">
+            <label>Filtro1</label>
+            <select class="form-control box-shadow selectfilter">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="filterfields">
+            <label>Filtro2</label>
+            <select class="form-control box-shadow selectfilter">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="filterfields">
+            <label>Filtro3</label>
+            <select class="form-control box-shadow selectfilter">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+    </div>
+    <!-- input tag -->
+    <input class="form-control box-shadow" style="border-color: #8cc43d; margin-bottom:5%;" id="searchbar" onkeyup="search_animal()" type="text"
+           name="search" placeholder="🔍">
+
+    <script>
+        // JavaScript code
+        function search_animal() {
+            let input = document.getElementById('searchbar').value
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('lines');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                }
+                else {
+                    x[i].style.display = "table-row";
+                }
+            }
+        }
+        function GoToIndex() {
+            window.location = "index";
+        }
+    </script>
+
+
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Tiger Nixon</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Tiger TOP</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Garrett Winters</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Ashton Cox</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Cedric Kelly</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Airi Satou</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Brielle Williamson</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Herrod Chandler</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Rhona Davidson</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Colleen Hurst</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Sonya Frost</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Jena Gaines</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Quinn Flynn</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Charde Marshall</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Haley Kennedy</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Tatyana Fitzpatrick</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Michael Silva</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Paul Byrd</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Gloria Little</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Bradley Greer</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Dai Rios</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Jenette Caldwell</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Yuri Berry</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Caesar Vance</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Doris Wilder</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Angelica Ramos</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Gavin Joyce</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Jennifer Chang</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Brenden Wagner</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Fiona Green</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Shou Itou</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Michelle House</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Suki Burks</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Prescott Bartlett</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Gavin Cortez</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Martena Mccray</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Unity Butler</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Howard Hatfield</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Hope Fuentes</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Vivian Harrell</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Timothy Mooney</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Jackson Bradshaw</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Olivia Liang</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Bruno Nash</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Sakura Yamamoto</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Thor Walton</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Finn Camacho</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Serge Baldwin</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Zenaida Frank</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Zorita Serrano</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Jennifer Acosta</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Cara Stevens</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Hermione Butler</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Lael Greer</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+        <table class="table table-striped table-bordered table-sm carousel-cell" cellspacing="0" width="100%">
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Jonas Alexander</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Shad Decker</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Michael Bruce</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+            <tr class="lines">
+                <td style="background-color:red; height:57px; width:1px;"></td>
+                <td>Donna Snider</td>
+                <td class="tableiconline"><img id="social" src="https://www.picng.com/upload/whatsapp/png_whatsapp_65984.png" /></td>
+                <td class="tableiconline"> Edinburgh</td>
+                <td class="tableiconline"><img id="social" src="https://w7.pngwing.com/pngs/140/391/png-transparent-telephone-computer-icons-symbol-email-miscellaneous-telephone-call-hand.png" /></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <input onclick="GoToIndex()" type="image" src="https://image.shutterstock.com/image-vector/flat-round-plus-sign-green-600w-652023094.jpg" style="height: 60px; bottom: 15px; position: absolute; right: 10%; z-index: 1;" asp-action="Index" />
+    </div>
+</div>
+<style>
+    table.dataTable thead .sorting:after,
+    table.dataTable thead .sorting:before,
+    table.dataTable thead .sorting_asc:after,
+    table.dataTable thead .sorting_asc:before,
+    table.dataTable thead .sorting_asc_disabled:after,
+    table.dataTable thead .sorting_asc_disabled:before,
+    table.dataTable thead .sorting_desc:after,
+    table.dataTable thead .sorting_desc:before,
+    table.dataTable thead .sorting_desc_disabled:after,
+    table.dataTable thead .sorting_desc_disabled:before {
+        bottom: .5em;
+    }
+
+    #social {
+        height: 20px;
+        width: 20px;
+    }
+    .tableiconline {
+        text-align: center;
+    }
+    .lines{
+        height: 60px;
+    }
+    ::-webkit-input-placeholder {
+        text-align: right;
+    }
+
+    .selectfilter {
+        border-color: #8cc43d;
+    }
+
+    .filterfields, .filterlabel {
+        width: 100%;
+    }
+    .flickity-button {
+        display: none;
+    }
+    .table-head {
+        float: left;
+        width: 80px;
+        border-right: 2px solid #333;
+        border-collapse: collapse
+    }
+
+    .table-scroll {
+        float: left;
+        width: calc(100% - 81px);
+        border-top: 1px solid #333;
+        border-right: 1px solid #333;
+        border-bottom: 1px solid #333;
+        background-color: #AAA;
+    }
+
+        .table-scroll table {
+            margin-top: -1px;
+            width: 30%;
+            min-width: 300px;
+            max-width: 40%;
+            border-collapse: collapse;
+        }
+
+    th {
+        text-align: left;
+        background-color: #f2f2f2;
+        color: #0076BF;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #333;
+        background-clip: padding-box;
+    }
+
+    td {
+        background-color: #fff;
+        padding-top:20px !important;
+    }
+    .pb-3, .py-3 {
+        padding-bottom: 2rem !important;
+    }
+    .dot.is-selected{
+        background-color:black;
+    }
+</style>

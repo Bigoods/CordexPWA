@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Loading";
+}
+
+<div class="text-center center">
+    <h1 class="display-4"><img src="~/Cordex branco.png"style="width:100%"/></h1>
+    <img class="align-content-center" style="height:300px;width:300px;" src="~/loading.gif"/>
+</div>
+<a href="/Home/Login" class="button"> Click me </a>
+<style>
+    body {
+        background-color: #8cc43d;
+    }
+    header, footer{
+        display:none;
+    }
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .button {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: darkgrey;
+        border-radius: 15px;
+    }
+</style>
